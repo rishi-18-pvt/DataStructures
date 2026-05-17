@@ -1,6 +1,6 @@
 public class ArrayContainsElement {
     public static void main(String[] args) {
-        int numbers[]={10,9,7,4,3,9};
+        int numbers[]={10,9,7,4,3,9,10};
         boolean contains = false;
         int target = 0;
         for(int num:numbers){

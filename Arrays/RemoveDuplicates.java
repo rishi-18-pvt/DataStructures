@@ -1,11 +1,11 @@
+
 import java.util.HashSet;
 
 public class RemoveDuplicates {
    public static void main(String[] args) {
-     int[] numbers ={1,2,4,6,7,7,8,8,9};
+     int[] numbers ={1,2,4,6,7,7,8,8,9,10};
 
-     removeDuplicates(numbers);
-   }
+     removeDuplicates(numbers);   }
    public static void removeDuplicates(int[]arr){
     HashSet <Integer> uniqueSet = new HashSet<Integer>();
     for(int num:arr){
